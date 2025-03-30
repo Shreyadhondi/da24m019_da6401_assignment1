@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+wandb
+keras
+pytest
+mypy
+pre-commit
