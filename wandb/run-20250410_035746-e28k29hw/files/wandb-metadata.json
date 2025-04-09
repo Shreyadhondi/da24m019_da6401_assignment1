@@ -1,0 +1,72 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-04-09T22:27:46.397255Z",
+  "args":  [
+    "--wandb_entity",
+    "shreyadhondi-indian-institute-of-technology-madras",
+    "--wandb_project",
+    "da24m019_shreya_da6401_assignment1",
+    "--dataset",
+    "fashion_mnist",
+    "--epochs",
+    "10",
+    "--batch_size",
+    "64",
+    "--loss",
+    "cross_entropy",
+    "--optimizer",
+    "nag",
+    "--learning_rate",
+    "0.000808599549090729",
+    "--momentum",
+    "0.9",
+    "--weight_decay",
+    "0.0",
+    "--weight_init",
+    "Xavier",
+    "--num_layers",
+    "2",
+    "--hidden_size",
+    "32",
+    "--activation",
+    "tanh"
+  ],
+  "program":  "C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/shreyadhondi/da24m019_da6401_assignment1.git",
+    "commit":  "e5e2d349bd4e22f5aee10a6d3eae02f25d5772c6"
+  },
+  "email":  "da24m019@smail.iitm.ac.in",
+  "root":  "C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1",
+  "host":  "DESKTOP-SU4N9TD",
+  "executable":  "C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\venv\\scripts\\python.exe",
+  "codePathLocal":  "train.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "NVIDIA GeForce MX230",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "235460882432",
+      "used":  "206730596352"
+    }
+  },
+  "memory":  {
+    "total":  "16935714816"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce MX230",
+      "memoryTotal":  "2147483648",
+      "cudaCores":  256,
+      "architecture":  "Pascal"
+    }
+  ],
+  "cudaVersion":  "12.5"
+}

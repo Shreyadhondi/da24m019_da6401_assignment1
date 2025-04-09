@@ -1,0 +1,29 @@
+(32, 1)
+EPOCH: 1
+TRAINING LOSS :2.1205970678948116
+TRAINING ACCURACY :0.22920370370370372
+VALIDATION LOSS :1.8877562496958398
+VALIDATION ACCURACY :0.31266666666666665
+EPOCH: 2
+TRAINING LOSS :1.6845780004257702
+TRAINING ACCURACY :0.4174259259259259
+VALIDATION LOSS :1.491590892888324
+VALIDATION ACCURACY :0.504
+EPOCH: 3
+TRAINING LOSS :1.3497127853078021
+TRAINING ACCURACY :0.5707222222222222
+VALIDATION LOSS :1.2164688419202767
+VALIDATION ACCURACY :0.6176666666666667
+EPOCH: 4
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\train.py", line 51, in <module>
+    main(args)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\train.py", line 25, in main
+    model.fit(x_val,y_ohv_val,x_train,y_ohv_train,X_test,Y_ohv_test)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\Model1.py", line 252, in fit
+    temp_W_dict, temp_B_dict = self.backward_prop(Pre_act_dict, W_dict, B_dict, act_dict,Y_hat,y_ohv)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\Model1.py", line 91, in backward_prop
+    def backward_prop(self, Pre_act_dict, W_dict, B_dict, act_dict,Y_hat,Y_ohv):
+
+KeyboardInterrupt

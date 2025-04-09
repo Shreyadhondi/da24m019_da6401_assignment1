@@ -207,6 +207,34 @@ class FFNN():
     Validation_Accuracy = {}
     update = 0
     print(B_dict['B_layer_1'].shape)
+    
+    """
+    Adaptive early stoppage:
+    -------------------------
+    I am using this strategy as a technique to stop the sweep early if it seems like
+    the model is not going to give a good accuracy or cannot make potentaial improvement. 
+    I am using this strategy in order to not waste the compute and save time.
+
+    Strategy:
+    ---------
+    1. if the validation loss dosen't reduce for a long time then it should stop running.
+    2. if the sweep runs for 10 eopcs, after 5 epocs, the logic will check if the validation accuracy < 50%
+    if it is less then the training is stopped.
+    similarlly, if the sweep runs for 20/30 eopcs, after 10 epocs, the logic will check if the validation accuracy < 50%
+    if it is less then the training is stopped.
+    similarlly, if the sweep runs for more then 30 eopcs, after 25 epocs, the logic will check if the validation accuracy < 50%
+    if it is less then the training is stopped.
+
+    """
+    prev_val_loss = float('inf')
+    no_improvement_epochs = 0
+    if self.epochs <= 10:
+        check_epoch = 5
+    elif self.epochs <= 30:
+        check_epoch = 10
+    else:
+        check_epoch = 25
+
     for t in range(1,self.epochs+1):
       print(f"EPOCH: {t}")
       # print('before',B_dict['B_layer_1'].shape)
@@ -256,6 +284,23 @@ class FFNN():
       print(f"TRAINING ACCURACY :{Training_Accuracy[f'Epoch_{t}']}")
       print(f"VALIDATION LOSS :{Validation_Loss[f'Epoch_{t}']}")
       print(f"VALIDATION ACCURACY :{Validation_Accuracy[f'Epoch_{t}']}")
+
+      """ Early Stoppage """
+      if t >= check_epoch:
+          if validation_accuracy < 0.5:
+              print(f"I do not see signs of further improvement. Therefore, Ending training..\nStopping early at epoch {t}: Accuracy too low ({validation_accuracy:.2f})")
+              break
+
+          if validation_loss >= prev_val_loss - 0.001:
+              no_improvement_epochs += 1
+          else:
+              no_improvement_epochs = 0
+          prev_val_loss = validation_loss
+
+          if no_improvement_epochs >= 3:
+              print(f"I do not see signs of further improvement. Therefore, Ending training. \nStopping early at epoch {t}: Validation loss not improving for 3 consecutive epochs.")
+              break
+            
     print("\n Testing on unseen data")
     Test_loss, Test_Accuracy = self.evaluate(X_test,Y_ohv_test,W_dict,B_dict,self.weight_decay,confusion=True)
     print(f"TEST LOSS :{Test_loss}")
@@ -265,3 +310,4 @@ class FFNN():
     MyDicts = [W_dict, B_dict]
     pkl.dump(MyDicts, open("model_final.p", "wb" ))
 
+    return validation_accuracy
