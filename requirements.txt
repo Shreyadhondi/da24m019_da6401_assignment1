@@ -1,8 +1,5 @@
-numpy
-pandas
+tensorflow
+Keras
+pillow
 matplotlib
 wandb
-keras
-pytest
-mypy
-pre-commit

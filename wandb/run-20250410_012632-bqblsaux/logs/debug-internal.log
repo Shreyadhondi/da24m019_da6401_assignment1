@@ -1,0 +1,16 @@
+{"time":"2025-04-10T01:26:32.1647439+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\wandb\\run-20250410_012632-bqblsaux\\logs\\debug-core.log"}
+{"time":"2025-04-10T01:26:33.1018585+05:30","level":"INFO","msg":"created new stream","id":"bqblsaux"}
+{"time":"2025-04-10T01:26:33.1018585+05:30","level":"INFO","msg":"stream: started","id":"bqblsaux"}
+{"time":"2025-04-10T01:26:33.1018585+05:30","level":"INFO","msg":"handler: started","stream_id":"bqblsaux"}
+{"time":"2025-04-10T01:26:33.1018585+05:30","level":"INFO","msg":"sender: started","stream_id":"bqblsaux"}
+{"time":"2025-04-10T01:26:33.1018585+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bqblsaux"}
+{"time":"2025-04-10T01:26:33.582838+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T01:36:12.9266258+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T01:36:12.9276761+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-10T01:36:13.941666+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-bqblsaux-Confusion_matrix_fashion_mnist_table","runtime_seconds":1.0806491},{"desc":"uploading media\\table\\Confusion_matrix_fashion_mnist_table_41_04957742df41aaa8a4a0.table.json","runtime_seconds":0.7296507,"progress":"2.9KB/2.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6833926,"progress":"1.6KB/1.6KB"}],"total_operations":3}}
+{"time":"2025-04-10T01:36:16.5466997+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T01:36:16.9392694+05:30","level":"INFO","msg":"stream: closing","id":"bqblsaux"}
+{"time":"2025-04-10T01:36:16.9392694+05:30","level":"INFO","msg":"handler: closed","stream_id":"bqblsaux"}
+{"time":"2025-04-10T01:36:16.9392694+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bqblsaux"}
+{"time":"2025-04-10T01:36:16.9392694+05:30","level":"INFO","msg":"sender: closed","stream_id":"bqblsaux"}
+{"time":"2025-04-10T01:36:16.9392694+05:30","level":"INFO","msg":"stream: closed","id":"bqblsaux"}

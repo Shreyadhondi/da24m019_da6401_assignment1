@@ -1,0 +1,16 @@
+{"time":"2025-04-10T01:48:02.647556+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\wandb\\run-20250410_014802-roftry2j\\logs\\debug-core.log"}
+{"time":"2025-04-10T01:48:03.7004679+05:30","level":"INFO","msg":"created new stream","id":"roftry2j"}
+{"time":"2025-04-10T01:48:03.7004679+05:30","level":"INFO","msg":"stream: started","id":"roftry2j"}
+{"time":"2025-04-10T01:48:03.7004679+05:30","level":"INFO","msg":"handler: started","stream_id":"roftry2j"}
+{"time":"2025-04-10T01:48:03.7004679+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"roftry2j"}
+{"time":"2025-04-10T01:48:03.7004679+05:30","level":"INFO","msg":"sender: started","stream_id":"roftry2j"}
+{"time":"2025-04-10T01:48:04.150822+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T01:54:51.615781+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T01:54:51.6162877+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-10T01:54:52.6242815+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-roftry2j-Confusion_matrix_fashion_mnist_table","runtime_seconds":1.0705343},{"desc":"uploading media\\table\\Confusion_matrix_fashion_mnist_table_41_72391683afb3a8773298.table.json","runtime_seconds":0.7390971,"progress":"2.8KB/2.8KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6757771,"progress":"1.7KB/1.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.355309,"progress":"2.1KB/2.1KB"}],"total_operations":4}}
+{"time":"2025-04-10T01:54:54.5870394+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T01:54:54.9925027+05:30","level":"INFO","msg":"stream: closing","id":"roftry2j"}
+{"time":"2025-04-10T01:54:54.9925027+05:30","level":"INFO","msg":"handler: closed","stream_id":"roftry2j"}
+{"time":"2025-04-10T01:54:54.9925027+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"roftry2j"}
+{"time":"2025-04-10T01:54:54.9925027+05:30","level":"INFO","msg":"sender: closed","stream_id":"roftry2j"}
+{"time":"2025-04-10T01:54:54.9925027+05:30","level":"INFO","msg":"stream: closed","id":"roftry2j"}

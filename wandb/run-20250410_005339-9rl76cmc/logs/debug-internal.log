@@ -1,0 +1,16 @@
+{"time":"2025-04-10T00:53:39.135546+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\wandb\\run-20250410_005339-9rl76cmc\\logs\\debug-core.log"}
+{"time":"2025-04-10T00:53:40.0589284+05:30","level":"INFO","msg":"created new stream","id":"9rl76cmc"}
+{"time":"2025-04-10T00:53:40.0594654+05:30","level":"INFO","msg":"stream: started","id":"9rl76cmc"}
+{"time":"2025-04-10T00:53:40.0594654+05:30","level":"INFO","msg":"sender: started","stream_id":"9rl76cmc"}
+{"time":"2025-04-10T00:53:40.0594654+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"9rl76cmc"}
+{"time":"2025-04-10T00:53:40.0594654+05:30","level":"INFO","msg":"handler: started","stream_id":"9rl76cmc"}
+{"time":"2025-04-10T00:53:40.6087576+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T01:01:23.4408098+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T01:01:23.4413256+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-10T01:01:24.4452338+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-9rl76cmc-Confusion_matrix_fashion_mnist_table","runtime_seconds":1.1105004},{"desc":"uploading media\\table\\Confusion_matrix_fashion_mnist_table_41_1a4f3e412c91e1fa3bb3.table.json","runtime_seconds":0.7672857,"progress":"2.9KB/2.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6706998,"progress":"1.7KB/1.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.3232,"progress":"2.1KB/2.1KB"}],"total_operations":4}}
+{"time":"2025-04-10T01:01:26.1207381+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T01:01:26.5244538+05:30","level":"INFO","msg":"stream: closing","id":"9rl76cmc"}
+{"time":"2025-04-10T01:01:26.5244538+05:30","level":"INFO","msg":"handler: closed","stream_id":"9rl76cmc"}
+{"time":"2025-04-10T01:01:26.5244538+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"9rl76cmc"}
+{"time":"2025-04-10T01:01:26.5244538+05:30","level":"INFO","msg":"sender: closed","stream_id":"9rl76cmc"}
+{"time":"2025-04-10T01:01:26.5251195+05:30","level":"INFO","msg":"stream: closed","id":"9rl76cmc"}
