@@ -22,7 +22,6 @@ def plot_images(features, labels):
         None
     """
 
-
     label_dict = { 0: 'T-shirt/top', 1: 'Trouser', 2: 'Pullover',3:'Dress',4:'Coat',5:'Sandal',6:'Shirt',7:'Sneaker',8:'Bag',9: 'Ankle boot'}
     label_values = list(label_dict.keys())
     pixels = []
@@ -351,7 +350,7 @@ def ReLu(x):
     -------
         (numpy.ndarray) : activation
     """
-    return max(0,x)
+    return np.maximum(0, x)
 
 def activation_func(pre_activation,activation,derivative=False):
     """
@@ -415,7 +414,7 @@ def loss_func_CEL(actual_value,prediction):
         (float) : cross entropy loss
     """
     CrossEntropyLoss = -np.dot(actual_value.T,np.log(prediction))
-    return float(CrossEntropyLoss)
+    return float(CrossEntropyLoss.item())
 
 def L2_Loss(W_dict, weight_decay):
     """
