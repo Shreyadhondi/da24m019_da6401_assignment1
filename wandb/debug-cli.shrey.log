@@ -1,0 +1,468 @@
+2025-04-10 05:07:02 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:07:57 ERROR Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\apis\normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1139, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+ValueError: Sweep shreyadhondi-indian-institute-of-technology-madras/da24m019_shreya_da6401_assignment1/71yaqxtc not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\cli\cli.py", line 104, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\cli\cli.py", line 1676, in agent
+    wandb_agent.agent(sweep_id, entity=entity, project=project, count=count)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\wandb_agent.py", line 567, in agent
+    return run_agent(
+           ^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\wandb_agent.py", line 526, in run_agent
+    agent.run()
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\wandb_agent.py", line 193, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\apis\internal.py", line 134, in sweep
+    return self.api.sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\apis\normalize.py", line 79, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\apis\normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1139, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+wandb.errors.errors.CommError: Sweep shreyadhondi-indian-institute-of-technology-madras/da24m019_shreya_da6401_assignment1/71yaqxtc not found
+
+2025-04-10 05:07:57 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:10:42 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:11:04 ERROR Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\apis\normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1139, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+ValueError: Sweep shreyadhondi-indian-institute-of-technology-madras/da24m019_shreya_da6401_assignment1/71yaqxtc not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\cli\cli.py", line 104, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\cli\cli.py", line 1676, in agent
+    wandb_agent.agent(sweep_id, entity=entity, project=project, count=count)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\wandb_agent.py", line 567, in agent
+    return run_agent(
+           ^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\wandb_agent.py", line 526, in run_agent
+    agent.run()
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\wandb_agent.py", line 193, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\apis\internal.py", line 134, in sweep
+    return self.api.sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\apis\normalize.py", line 79, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\apis\normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1139, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+wandb.errors.errors.CommError: Sweep shreyadhondi-indian-institute-of-technology-madras/da24m019_shreya_da6401_assignment1/71yaqxtc not found
+
+2025-04-10 05:11:05 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:29:14 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:29:53 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:34:06 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:34:31 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:38:26 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:39:48 INFO Running runs: []
+2025-04-10 05:39:49 INFO Agent received command: run
+2025-04-10 05:39:49 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	epochs: 25
+	eta: 0.0006588420571538419
+	hidden_size: 16
+	num_layers: 3
+	optimizer: adam
+	weight_decay: 0.0005
+	weight_init: random
+2025-04-10 05:39:49 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 05:39:54 INFO Running runs: ['skjcfz85']
+2025-04-10 05:39:54 INFO Cleaning up finished run: skjcfz85
+2025-04-10 05:39:55 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:39:55 INFO Agent received command: run
+2025-04-10 05:39:55 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 32
+	epochs: 50
+	eta: 0.0002684896953361593
+	hidden_size: 32
+	num_layers: 2
+	optimizer: adam
+	weight_decay: 0.5
+	weight_init: random
+2025-04-10 05:39:55 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 05:40:00 INFO Running runs: ['g53u9st3']
+2025-04-10 05:40:00 INFO Cleaning up finished run: g53u9st3
+2025-04-10 05:40:01 INFO Agent received command: run
+2025-04-10 05:40:01 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 64
+	epochs: 50
+	eta: 0.0004563286651071821
+	hidden_size: 32
+	num_layers: 3
+	optimizer: sgd
+	weight_decay: 0
+	weight_init: Xavier
+2025-04-10 05:40:01 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 05:40:06 INFO Running runs: ['akmpo697']
+2025-04-10 05:40:06 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-04-10 05:40:06 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-04-10 05:44:09 INFO Running runs: []
+2025-04-10 05:44:10 INFO Agent received command: run
+2025-04-10 05:44:10 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 128
+	epochs: 25
+	eta: 0.0008351678638257983
+	hidden_size: 32
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0
+	weight_init: Xavier
+2025-04-10 05:44:10 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 05:44:15 INFO Running runs: ['q89hvos7']
+2025-04-10 05:44:15 INFO Cleaning up finished run: q89hvos7
+2025-04-10 05:44:15 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:44:16 INFO Agent received command: run
+2025-04-10 05:44:16 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 16
+	epochs: 50
+	eta: 0.0004690011636725432
+	hidden_size: 64
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.5
+	weight_init: random
+2025-04-10 05:44:16 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 05:44:21 INFO Running runs: ['78plbvxj']
+2025-04-10 05:44:21 INFO Cleaning up finished run: 78plbvxj
+2025-04-10 05:44:21 INFO Agent received command: run
+2025-04-10 05:44:21 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	epochs: 25
+	eta: 0.00030252876004643496
+	hidden_size: 64
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: Xavier
+2025-04-10 05:44:21 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 05:44:26 INFO Running runs: ['pqhldznj']
+2025-04-10 05:44:26 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-04-10 05:44:26 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-04-10 05:50:26 INFO Running runs: []
+2025-04-10 05:50:26 INFO Agent received command: run
+2025-04-10 05:50:26 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 32
+	epochs: 40
+	eta: 0.00041342749132936994
+	hidden_size: 16
+	num_layers: 2
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: Xavier
+2025-04-10 05:50:26 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 05:50:31 INFO Running runs: ['yvfy5eha']
+2025-04-10 05:50:31 INFO Cleaning up finished run: yvfy5eha
+2025-04-10 05:50:32 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 05:50:33 INFO Agent received command: run
+2025-04-10 05:50:33 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	epochs: 25
+	eta: 0.0004926152900724551
+	hidden_size: 64
+	num_layers: 2
+	optimizer: adam
+	weight_decay: 0.5
+	weight_init: Xavier
+2025-04-10 05:50:33 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 05:50:38 INFO Running runs: ['aagge82k']
+2025-04-10 05:50:38 INFO Cleaning up finished run: aagge82k
+2025-04-10 05:50:39 INFO Agent received command: run
+2025-04-10 05:50:39 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 16
+	epochs: 40
+	eta: 0.0007831329602279773
+	hidden_size: 16
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-04-10 05:50:39 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 05:50:44 INFO Running runs: ['r8pkn1ub']
+2025-04-10 05:50:44 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-04-10 05:50:44 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-04-10 06:03:20 INFO Running runs: []
+2025-04-10 06:03:21 INFO Agent received command: run
+2025-04-10 06:03:21 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 64
+	epochs: 50
+	eta: 0.0009025102714228466
+	hidden_size: 64
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2025-04-10 06:03:21 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 06:03:26 INFO Running runs: ['763xo3ud']
+2025-04-10 06:03:26 INFO Cleaning up finished run: 763xo3ud
+2025-04-10 06:03:27 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 06:03:27 INFO Agent received command: run
+2025-04-10 06:03:27 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 128
+	epochs: 50
+	eta: 0.0002586246277779888
+	hidden_size: 16
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0.5
+	weight_init: Xavier
+2025-04-10 06:03:27 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 06:03:32 INFO Running runs: ['8gik3d0b']
+2025-04-10 06:03:32 INFO Cleaning up finished run: 8gik3d0b
+2025-04-10 06:03:33 INFO Agent received command: run
+2025-04-10 06:03:33 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	epochs: 40
+	eta: 0.0002426296392627248
+	hidden_size: 64
+	num_layers: 3
+	optimizer: adam
+	weight_decay: 0.5
+	weight_init: Xavier
+2025-04-10 06:03:33 INFO About to run command: python sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 06:03:38 INFO Running runs: ['gyb8mn3e']
+2025-04-10 06:03:38 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-04-10 06:03:38 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-04-10 06:33:39 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 06:34:47 INFO Running runs: []
+2025-04-10 06:34:48 INFO Agent received command: run
+2025-04-10 06:34:48 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	epochs: 50
+	eta: 0.0007626592018396345
+	hidden_size: 32
+	num_layers: 4
+	optimizer: sgd
+	weight_decay: 0
+	weight_init: random
+2025-04-10 06:34:48 INFO About to run command: ./venv/Scripts/python.exe sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 06:34:53 INFO Running runs: ['hw7os34k']
+2025-04-10 06:35:46 INFO Cleaning up finished run: hw7os34k
+2025-04-10 06:35:46 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 06:35:47 INFO Agent received command: run
+2025-04-10 06:35:47 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	epochs: 50
+	eta: 0.0008835605222549379
+	hidden_size: 16
+	num_layers: 2
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-04-10 06:35:47 INFO About to run command: ./venv/Scripts/python.exe sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 06:35:52 INFO Running runs: ['jg8p16rz']
+2025-04-10 06:36:08 INFO Cleaning up finished run: jg8p16rz
+2025-04-10 06:36:08 INFO Agent received command: run
+2025-04-10 06:36:08 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 64
+	epochs: 40
+	eta: 0.0004725798586959514
+	hidden_size: 16
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.5
+	weight_init: Xavier
+2025-04-10 06:36:08 INFO About to run command: ./venv/Scripts/python.exe sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 06:36:13 INFO Running runs: ['3vkzmoft']
+2025-04-10 06:36:29 INFO Cleaning up finished run: 3vkzmoft
+2025-04-10 06:36:30 INFO Agent received command: run
+2025-04-10 06:36:30 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	epochs: 40
+	eta: 0.00019165334287996955
+	hidden_size: 32
+	num_layers: 2
+	optimizer: momentum
+	weight_decay: 0
+	weight_init: random
+2025-04-10 06:36:30 INFO About to run command: ./venv/Scripts/python.exe sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 06:36:35 INFO Running runs: ['4qt9pgur']
+2025-04-10 06:36:51 INFO Cleaning up finished run: 4qt9pgur
+2025-04-10 06:36:51 INFO Agent received command: run
+2025-04-10 06:36:51 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	epochs: 50
+	eta: 0.000559620495037855
+	hidden_size: 64
+	num_layers: 4
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2025-04-10 06:36:51 INFO About to run command: ./venv/Scripts/python.exe sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 06:36:56 INFO Running runs: ['cxrizido']
+2025-04-10 06:37:12 ERROR Detected 5 failed runs in a row, shutting down.
+2025-04-10 06:37:12 INFO To change this value set WANDB_AGENT_MAX_INITIAL_FAILURES=val
+2025-04-10 06:41:02 INFO Running runs: []
+2025-04-10 06:41:02 INFO Agent received command: run
+2025-04-10 06:41:02 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	epochs: 25
+	eta: 0.0003286605424962813
+	hidden_size: 32
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.5
+	weight_init: random
+2025-04-10 06:41:02 INFO About to run command: ./venv/Scripts/python.exe sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 06:41:08 INFO Running runs: ['dmnzkmm6']
+2025-04-10 06:45:38 INFO Cleaning up finished run: dmnzkmm6
+2025-04-10 06:45:38 INFO Closing mailbox, abandoning 0 handles.
+2025-04-10 06:45:39 INFO Agent received command: run
+2025-04-10 06:45:39 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 16
+	epochs: 50
+	eta: 0.0005072148077652814
+	hidden_size: 64
+	num_layers: 3
+	optimizer: adam
+	weight_decay: 0.5
+	weight_init: Xavier
+2025-04-10 06:45:39 INFO About to run command: ./venv/Scripts/python.exe sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 06:45:44 INFO Running runs: ['xqgxa9o5']
+2025-04-10 07:04:56 INFO Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\anaconda3\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000022FB3A176B0>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022FB3A176B0>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 398, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022FB3A176B0>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-04-10 07:10:58 INFO Cleaning up finished run: xqgxa9o5
+2025-04-10 07:10:58 INFO Agent received command: run
+2025-04-10 07:10:58 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	epochs: 50
+	eta: 0.00028435872918096026
+	hidden_size: 64
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-04-10 07:10:58 INFO About to run command: ./venv/Scripts/python.exe sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 07:11:03 INFO Running runs: ['a7q8yjpa']
+2025-04-10 07:32:38 INFO Cleaning up finished run: a7q8yjpa
+2025-04-10 07:32:39 INFO Agent received command: run
+2025-04-10 07:32:39 INFO Agent starting run with config:
+	activation: ReLu
+	batch_size: 64
+	epochs: 40
+	eta: 0.00027531396097747225
+	hidden_size: 64
+	num_layers: 3
+	optimizer: momentum
+	weight_decay: 0.5
+	weight_init: Xavier
+2025-04-10 07:32:39 INFO About to run command: ./venv/Scripts/python.exe sweep_train.py --entity=shreyadhondi-indian-institute-of-technology-madras --project=da24m019_shreya_da6401_assignment1
+2025-04-10 07:32:44 INFO Running runs: ['i68bafxl']

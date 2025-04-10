@@ -1,4 +1,4 @@
-from keras.datasets import mnist,fashion_mnist
+from tensorflow.keras.datasets import mnist, fashion_mnist
 import random
 import copy
 import numpy as np
