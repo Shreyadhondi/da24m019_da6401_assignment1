@@ -1,0 +1,91 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.12.7
+    cli_version: 0.19.8
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1744346768
+    t:
+      1:
+      - 2
+      - 3
+      - 55
+      2:
+      - 2
+      - 3
+      - 55
+      3:
+      - 14
+      - 17
+      - 23
+      - 37
+      4: 3.12.7
+      5: 0.19.8
+      8:
+      - 3
+      - 5
+      10:
+      - 3
+      13: windows-amd64
+    visualize:
+      Confusion_matrix_fashion_mnist:
+        panel_type: Vega2
+        panel_config:
+          panelDefId: wandb/confusion_matrix/v1
+          fieldSettings:
+            Actual: Actual
+            Predicted: Predicted
+            nPredictions: nPredictions
+          stringSettings:
+            title: Confusion Matrix Curve
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - name: runSets
+              args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - name: id
+                fields: []
+              - name: name
+                fields: []
+              - name: _defaultColorIndex
+                fields: []
+              - name: summaryTable
+                args:
+                - name: tableKey
+                  value: Confusion_matrix_fashion_mnist_table
+                fields: []
+activation:
+  desc: null
+  value: tanh
+batch_size:
+  desc: null
+  value: 16
+epochs:
+  desc: null
+  value: 40
+eta:
+  desc: null
+  value: 0.0005859712763408017
+hidden_size:
+  desc: null
+  value: 16
+num_layers:
+  desc: null
+  value: 4
+optimizer:
+  desc: null
+  value: momentum
+weight_decay:
+  desc: null
+  value: 0.0001
+weight_init:
+  desc: null
+  value: Xavier

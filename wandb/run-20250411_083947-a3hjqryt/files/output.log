@@ -1,0 +1,29 @@
+(64, 1)
+EPOCH: 1
+TRAINING LOSS :0.754241388740109
+TRAINING ACCURACY :0.7578888888888888
+VALIDATION LOSS :0.5651791633989298
+VALIDATION ACCURACY :0.825
+EPOCH: 2
+TRAINING LOSS :0.5370527089441095
+TRAINING ACCURACY :0.827962962962963
+VALIDATION LOSS :0.5140220931918273
+VALIDATION ACCURACY :0.8386666666666667
+EPOCH: 3
+TRAINING LOSS :0.4904928394900205
+TRAINING ACCURACY :0.8456666666666667
+VALIDATION LOSS :0.4750864956216191
+VALIDATION ACCURACY :0.854
+EPOCH: 4
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\train.py", line 55, in <module>
+    main(args)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\train.py", line 29, in main
+    model.fit(x_val,y_ohv_val,x_train,y_ohv_train,X_test,Y_ohv_test)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\Model1.py", line 251, in fit
+    temp_W_dict, temp_B_dict = self.backward_prop(Pre_act_dict, W_dict, B_dict, act_dict,Y_hat,y_ohv)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\Model1.py", line 126, in backward_prop
+    grad_W_dict[f'W_layer_{i}'] = np.dot(grad_pre_act_dict[f'A_layer_{i}'],act_dict[f'H_layer_{i-1}'].T)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

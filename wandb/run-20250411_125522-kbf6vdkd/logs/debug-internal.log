@@ -1,0 +1,16 @@
+{"time":"2025-04-11T12:55:22.3430617+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\wandb\\run-20250411_125522-kbf6vdkd\\logs\\debug-core.log"}
+{"time":"2025-04-11T12:55:23.3965809+05:30","level":"INFO","msg":"created new stream","id":"kbf6vdkd"}
+{"time":"2025-04-11T12:55:23.3965809+05:30","level":"INFO","msg":"stream: started","id":"kbf6vdkd"}
+{"time":"2025-04-11T12:55:23.3965809+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kbf6vdkd"}
+{"time":"2025-04-11T12:55:23.3965809+05:30","level":"INFO","msg":"sender: started","stream_id":"kbf6vdkd"}
+{"time":"2025-04-11T12:55:23.3965809+05:30","level":"INFO","msg":"handler: started","stream_id":"kbf6vdkd"}
+{"time":"2025-04-11T12:55:23.8211704+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T12:59:05.1776352+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-11T12:59:05.1785572+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-11T12:59:06.1885723+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-kbf6vdkd-Confusion_matrix_fashion_mnist_table","runtime_seconds":1.0995071},{"desc":"uploading config.yaml","runtime_seconds":0.3616861,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-04-11T12:59:07.9022305+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-11T12:59:08.3077451+05:30","level":"INFO","msg":"stream: closing","id":"kbf6vdkd"}
+{"time":"2025-04-11T12:59:08.3077451+05:30","level":"INFO","msg":"handler: closed","stream_id":"kbf6vdkd"}
+{"time":"2025-04-11T12:59:08.3077451+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kbf6vdkd"}
+{"time":"2025-04-11T12:59:08.3077451+05:30","level":"INFO","msg":"sender: closed","stream_id":"kbf6vdkd"}
+{"time":"2025-04-11T12:59:08.3082577+05:30","level":"INFO","msg":"stream: closed","id":"kbf6vdkd"}

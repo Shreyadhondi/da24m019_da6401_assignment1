@@ -8,3 +8,5 @@ __pycache__/
 # Ignore any system-specific files (e.g., from macOS or VS Code)
 .DS_Store
 .vscode/
+.pytest_cache
+.ruff_cache

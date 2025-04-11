@@ -1,0 +1,50 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-04-11T07:13:56.121639Z",
+  "args":  [
+    "--entity",
+    "shreyadhondi-indian-institute-of-technology-madras",
+    "--project",
+    "da24m019_shreya_da6401_assignment1",
+    "--count",
+    "15"
+  ],
+  "program":  "C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\sweep_train.py",
+  "codePath":  "sweep_train.py",
+  "git":  {
+    "remote":  "https://github.com/shreyadhondi/da24m019_da6401_assignment1.git",
+    "commit":  "3744610836077c158a787635e2b35d4618e17549"
+  },
+  "email":  "da24m019@smail.iitm.ac.in",
+  "root":  "C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1",
+  "host":  "DESKTOP-SU4N9TD",
+  "executable":  "C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\venv\\scripts\\python.exe",
+  "codePathLocal":  "sweep_train.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "NVIDIA GeForce MX230",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "235460882432",
+      "used":  "218954579968"
+    }
+  },
+  "memory":  {
+    "total":  "16935714816"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce MX230",
+      "memoryTotal":  "2147483648",
+      "cudaCores":  256,
+      "architecture":  "Pascal"
+    }
+  ],
+  "cudaVersion":  "12.5"
+}

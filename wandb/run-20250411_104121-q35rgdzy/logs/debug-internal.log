@@ -1,0 +1,16 @@
+{"time":"2025-04-11T10:41:21.2302504+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\wandb\\run-20250411_104121-q35rgdzy\\logs\\debug-core.log"}
+{"time":"2025-04-11T10:41:22.4498623+05:30","level":"INFO","msg":"created new stream","id":"q35rgdzy"}
+{"time":"2025-04-11T10:41:22.4498623+05:30","level":"INFO","msg":"handler: started","stream_id":"q35rgdzy"}
+{"time":"2025-04-11T10:41:22.4498623+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"q35rgdzy"}
+{"time":"2025-04-11T10:41:22.4498623+05:30","level":"INFO","msg":"stream: started","id":"q35rgdzy"}
+{"time":"2025-04-11T10:41:22.4498623+05:30","level":"INFO","msg":"sender: started","stream_id":"q35rgdzy"}
+{"time":"2025-04-11T10:41:23.0753273+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T10:44:02.9180283+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-11T10:44:02.9194597+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-11T10:44:03.9240042+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-q35rgdzy-Confusion_matrix_fashion_mnist_table","runtime_seconds":1.1640619},{"desc":"uploading config.yaml","runtime_seconds":0.3012138,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-04-11T10:44:06.2154711+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-11T10:44:06.7299444+05:30","level":"INFO","msg":"stream: closing","id":"q35rgdzy"}
+{"time":"2025-04-11T10:44:06.7299444+05:30","level":"INFO","msg":"handler: closed","stream_id":"q35rgdzy"}
+{"time":"2025-04-11T10:44:06.7299444+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"q35rgdzy"}
+{"time":"2025-04-11T10:44:06.7304574+05:30","level":"INFO","msg":"sender: closed","stream_id":"q35rgdzy"}
+{"time":"2025-04-11T10:44:06.7314724+05:30","level":"INFO","msg":"stream: closed","id":"q35rgdzy"}

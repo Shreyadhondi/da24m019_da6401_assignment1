@@ -1,0 +1,171 @@
+2025-04-11 10:10:48,937 INFO    StreamThr :24068 [internal.py:wandb_internal():83] W&B internal server running at pid: 24068, started at: 2025-04-11 10:10:48.935845
+2025-04-11 10:10:48,942 INFO    WriterThread:24068 [datastore.py:open_for_write():87] open: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\run-vl8dlkj9.wandb
+2025-04-11 10:10:49,701 INFO    SenderThread:24068 [dir_watcher.py:__init__():211] watching files in: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files
+2025-04-11 10:10:49,701 INFO    SenderThread:24068 [sender.py:_start_run_threads():1134] run started: vl8dlkj9 with start time 1744346448.932362
+2025-04-11 10:10:50,529 INFO    HandlerThread:24068 [system_monitor.py:start():187] Starting system monitor
+2025-04-11 10:10:50,530 INFO    SystemMonitor:24068 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-04-11 10:10:50,530 INFO    HandlerThread:24068 [system_monitor.py:probe():207] Collecting system info
+2025-04-11 10:10:50,536 INFO    SystemMonitor:24068 [interfaces.py:start():186] Started cpu monitoring
+2025-04-11 10:10:50,537 INFO    SystemMonitor:24068 [interfaces.py:start():186] Started disk monitoring
+2025-04-11 10:10:50,538 INFO    SystemMonitor:24068 [interfaces.py:start():186] Started gpu monitoring
+2025-04-11 10:10:50,548 INFO    SystemMonitor:24068 [interfaces.py:start():186] Started memory monitoring
+2025-04-11 10:10:50,582 INFO    SystemMonitor:24068 [interfaces.py:start():186] Started network monitoring
+2025-04-11 10:10:50,604 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:10:50,604 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:10:50,879 INFO    HandlerThread:24068 [system_monitor.py:probe():217] Finished collecting system info
+2025-04-11 10:10:50,879 INFO    HandlerThread:24068 [system_monitor.py:probe():220] Publishing system info
+2025-04-11 10:10:50,881 INFO    HandlerThread:24068 [system_monitor.py:probe():222] Finished publishing system info
+2025-04-11 10:10:50,920 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2025-04-11 10:10:51,716 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\config.yaml
+2025-04-11 10:10:51,717 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\requirements.txt
+2025-04-11 10:10:51,717 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-metadata.json
+2025-04-11 10:10:51,874 INFO    SenderThread:24068 [sender.py:send_run():981] updated run: vl8dlkj9
+2025-04-11 10:10:51,877 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:10:51,974 INFO    wandb-upload_0:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\72zu2220-wandb-metadata.json
+2025-04-11 10:10:52,322 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file media\images\examples_1_47549224d504ebe10403.png with policy now
+2025-04-11 10:10:52,328 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file media\images\examples_1_61b563d6b8cc4fe0bbb1.png with policy now
+2025-04-11 10:10:52,331 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file media\images\examples_1_b4a7283a933acc5d543b.png with policy now
+2025-04-11 10:10:52,333 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file media\images\examples_1_1236ae6698f2d1a23c7c.png with policy now
+2025-04-11 10:10:52,337 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file media\images\examples_1_b7d36c9cf4dc994c4d82.png with policy now
+2025-04-11 10:10:52,339 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file media\images\examples_1_efb9aef79a21c0e9cf43.png with policy now
+2025-04-11 10:10:52,345 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file media\images\examples_1_994e76150c5f30868d84.png with policy now
+2025-04-11 10:10:52,350 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file media\images\examples_1_9c0cc3fba9cb564e1cfd.png with policy now
+2025-04-11 10:10:52,352 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file media\images\examples_1_6cad36bb1e4f1c0662e3.png with policy now
+2025-04-11 10:10:52,356 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file media\images\examples_1_26ba7be93580db9e6644.png with policy now
+2025-04-11 10:10:52,371 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:10:52,738 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images\examples_1_61b563d6b8cc4fe0bbb1.png
+2025-04-11 10:10:52,740 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images\examples_1_b7d36c9cf4dc994c4d82.png
+2025-04-11 10:10:52,744 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images\examples_1_1236ae6698f2d1a23c7c.png
+2025-04-11 10:10:52,745 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images\examples_1_994e76150c5f30868d84.png
+2025-04-11 10:10:52,746 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images\examples_1_9c0cc3fba9cb564e1cfd.png
+2025-04-11 10:10:52,747 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images\examples_1_6cad36bb1e4f1c0662e3.png
+2025-04-11 10:10:52,748 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images\examples_1_b4a7283a933acc5d543b.png
+2025-04-11 10:10:52,750 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:10:52,750 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images\examples_1_47549224d504ebe10403.png
+2025-04-11 10:10:52,751 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:10:52,752 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images\examples_1_efb9aef79a21c0e9cf43.png
+2025-04-11 10:10:52,753 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images\examples_1_26ba7be93580db9e6644.png
+2025-04-11 10:10:52,754 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media\images
+2025-04-11 10:10:52,756 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\media
+2025-04-11 10:10:52,996 INFO    wandb-upload_0:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\56147idx-media/images/examples_1_47549224d504ebe10403.png
+2025-04-11 10:10:53,073 INFO    wandb-upload_1:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\9ykbkjup-media/images/examples_1_61b563d6b8cc4fe0bbb1.png
+2025-04-11 10:10:53,160 INFO    wandb-upload_2:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\ij8qc7is-media/images/examples_1_b4a7283a933acc5d543b.png
+2025-04-11 10:10:53,182 INFO    wandb-upload_3:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\s6f90u8s-media/images/examples_1_1236ae6698f2d1a23c7c.png
+2025-04-11 10:10:53,191 INFO    wandb-upload_8:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\2fcpw499-media/images/examples_1_6cad36bb1e4f1c0662e3.png
+2025-04-11 10:10:53,204 INFO    wandb-upload_5:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\hskofpk0-media/images/examples_1_efb9aef79a21c0e9cf43.png
+2025-04-11 10:10:53,211 INFO    wandb-upload_9:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\e7v5va13-media/images/examples_1_26ba7be93580db9e6644.png
+2025-04-11 10:10:53,211 INFO    wandb-upload_7:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\aospnccw-media/images/examples_1_9c0cc3fba9cb564e1cfd.png
+2025-04-11 10:10:53,219 INFO    wandb-upload_4:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\j8cvb4vl-media/images/examples_1_b7d36c9cf4dc994c4d82.png
+2025-04-11 10:10:53,219 INFO    wandb-upload_6:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\pl60vim0-media/images/examples_1_994e76150c5f30868d84.png
+2025-04-11 10:10:53,908 INFO    wandb-upload_0:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\mj6jafhq-media/images/examples_1_6cad36bb1e4f1c0662e3.png
+2025-04-11 10:10:53,915 INFO    wandb-upload_3:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\ejw1ccv0-media/images/examples_1_47549224d504ebe10403.png
+2025-04-11 10:10:53,930 INFO    wandb-upload_6:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\0umy6eor-media/images/examples_1_efb9aef79a21c0e9cf43.png
+2025-04-11 10:10:53,943 INFO    wandb-upload_5:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\6viucq8p-media/images/examples_1_26ba7be93580db9e6644.png
+2025-04-11 10:10:53,986 INFO    wandb-upload_2:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\g9aql4ro-media/images/examples_1_b4a7283a933acc5d543b.png
+2025-04-11 10:10:54,609 INFO    wandb-upload_8:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\nly6o5t0-media/images/examples_1_b7d36c9cf4dc994c4d82.png
+2025-04-11 10:10:54,648 INFO    wandb-upload_7:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\w7hiqrxf-media/images/examples_1_994e76150c5f30868d84.png
+2025-04-11 10:10:54,648 INFO    wandb-upload_9:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\n10u2vnt-media/images/examples_1_61b563d6b8cc4fe0bbb1.png
+2025-04-11 10:10:54,665 INFO    wandb-upload_1:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\f3h290yt-media/images/examples_1_1236ae6698f2d1a23c7c.png
+2025-04-11 10:10:54,671 INFO    wandb-upload_4:24068 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmptr0qlfn9wandb\tgtw7wa0-media/images/examples_1_9c0cc3fba9cb564e1cfd.png
+2025-04-11 10:10:54,765 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:11:06,386 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:11:06,388 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:11:06,388 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:11:08,219 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:11:08,924 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:11:10,950 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:11:22,065 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\config.yaml
+2025-04-11 10:11:22,163 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:11:22,166 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:11:22,166 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:11:23,087 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:11:24,089 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:11:25,099 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:11:35,411 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:11:36,219 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:11:37,224 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:11:37,940 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:11:37,944 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:11:37,944 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:11:46,169 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:11:46,334 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:11:47,350 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:11:53,692 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:11:53,694 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:11:53,695 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:12:02,344 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:12:02,545 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:12:05,582 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:12:09,412 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:12:09,414 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:12:09,414 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:12:13,000 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:12:13,641 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:12:15,659 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:12:21,473 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:12:21,725 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:12:22,734 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:12:25,161 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:12:25,164 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:12:25,165 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:12:31,691 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:12:31,807 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:12:32,814 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:12:40,901 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:12:40,903 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:12:40,903 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:12:47,044 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:12:47,992 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:12:48,995 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:12:56,685 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:12:56,687 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:12:56,687 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:13:03,561 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:13:04,145 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:13:05,150 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:13:12,422 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:13:12,423 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:13:12,423 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:13:20,399 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:13:21,340 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:13:23,363 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:13:28,175 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:13:28,177 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:13:28,177 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:13:37,881 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:13:38,508 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:13:39,525 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:13:43,958 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:13:43,961 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:13:43,961 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:13:51,543 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:13:51,676 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:13:53,696 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:13:59,748 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:13:59,751 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:13:59,751 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:14:07,330 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:14:07,832 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:14:08,845 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:14:15,503 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:14:15,505 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:14:15,506 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:14:24,533 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:14:25,053 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:14:27,082 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:14:31,253 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:14:31,256 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:14:31,256 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:14:36,028 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:14:36,189 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:14:37,198 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:14:45,227 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:14:45,283 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:14:47,003 ERROR   gpu       :24068 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 10:14:47,005 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:14:47,005 ERROR   gpu       :24068 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 10:14:47,305 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:14:54,588 INFO    SenderThread:24068 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 10:14:55,377 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\wandb-summary.json
+2025-04-11 10:14:57,403 INFO    Thread-16 :24068 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_101048-vl8dlkj9\files\output.log
+2025-04-11 10:15:01,807 INFO    MainThread:24068 [internal.py:handle_exit():73] Internal process exited

@@ -1,0 +1,24 @@
+(64, 1)
+EPOCH: 1
+TRAINING LOSS :0.599408617678526
+TRAINING ACCURACY :0.8141111111111111
+VALIDATION LOSS :0.4849368091914229
+VALIDATION ACCURACY :0.8626666666666667
+EPOCH: 2
+TRAINING LOSS :0.5029489151714406
+TRAINING ACCURACY :0.859462962962963
+VALIDATION LOSS :0.5025144468346433
+VALIDATION ACCURACY :0.8685
+
+ Testing on unseen data
+TEST LOSS :0.5320691168714065
+TEST ACCURACY :0.8584
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\train.py", line 50, in <module>
+    main(args)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\train.py", line 24, in main
+    model.fit(x_val,y_ohv_val,x_train,y_ohv_train,X_test,Y_ohv_test)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\Model1.py", line 311, in fit
+    pkl.dump(MyDicts, open("model_final.p", "wb" ))
+    ^^^
+NameError: name 'pkl' is not defined

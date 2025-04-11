@@ -1,0 +1,105 @@
+2025-04-11 11:10:00,373 INFO    Thread-24 (_run_job):17776 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-04-11 11:10:00,373 INFO    Thread-24 (_run_job):17776 [wandb_setup.py:_flush():67] Configure stats pid to 17776
+2025-04-11 11:10:00,374 INFO    Thread-24 (_run_job):17776 [wandb_setup.py:_flush():67] Loading settings from C:\Users\shrey\.config\wandb\settings
+2025-04-11 11:10:00,374 INFO    Thread-24 (_run_job):17776 [wandb_setup.py:_flush():67] Loading settings from C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\settings
+2025-04-11 11:10:00,374 INFO    Thread-24 (_run_job):17776 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-11 11:10:00,374 INFO    Thread-24 (_run_job):17776 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_111000-179uzqic\logs\debug.log
+2025-04-11 11:10:00,375 INFO    Thread-24 (_run_job):17776 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_111000-179uzqic\logs\debug-internal.log
+2025-04-11 11:10:00,375 INFO    Thread-24 (_run_job):17776 [wandb_init.py:init():761] calling init triggers
+2025-04-11 11:10:00,375 INFO    Thread-24 (_run_job):17776 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'epochs': 40, 'eta': 0.0004029533736131022, 'hidden_size': 64, 'num_layers': 4, 'optimizer': 'sgd', 'weight_decay': 0, 'weight_init': 'Xavier'}
+config: {'_wandb': {}}
+2025-04-11 11:10:00,375 INFO    Thread-24 (_run_job):17776 [wandb_init.py:init():784] starting backend
+2025-04-11 11:10:00,375 INFO    Thread-24 (_run_job):17776 [wandb_init.py:init():788] sending inform_init request
+2025-04-11 11:10:00,381 INFO    Thread-24 (_run_job):17776 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-11 11:10:00,381 INFO    Thread-24 (_run_job):17776 [wandb_init.py:init():798] backend started and connected
+2025-04-11 11:10:00,381 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'tanh', 'batch_size': 16, 'epochs': 40, 'eta': 0.0004029533736131022, 'hidden_size': 64, 'num_layers': 4, 'optimizer': 'sgd', 'weight_decay': 0, 'weight_init': 'Xavier'}
+2025-04-11 11:10:00,383 INFO    Thread-24 (_run_job):17776 [wandb_init.py:init():891] updated telemetry
+2025-04-11 11:10:00,500 INFO    Thread-24 (_run_job):17776 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-11 11:10:02,130 INFO    Thread-24 (_run_job):17776 [wandb_init.py:init():990] starting run threads in backend
+2025-04-11 11:10:02,334 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_console_start():2375] atexit reg
+2025-04-11 11:10:02,335 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-04-11 11:10:02,336 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-04-11 11:10:02,336 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-04-11 11:10:02,337 INFO    Thread-24 (_run_job):17776 [wandb_init.py:init():1032] run started, returning control to user process
+2025-04-11 11:11:16,216 INFO    Thread-8 (_heartbeat):17776 [retry.py:__call__():175] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002F0139620C0>: Failed to establish a new connection: [WinError 10053] An established connection was aborted by the software in your host machine
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002F0139620C0>: Failed to establish a new connection: [WinError 10053] An established connection was aborted by the software in your host machine'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 398, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\venv\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002F0139620C0>: Failed to establish a new connection: [WinError 10053] An established connection was aborted by the software in your host machine'))
+2025-04-11 11:23:40,755 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'Confusion_matrix_fashion_mnist') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'Confusion_matrix_fashion_mnist_table'}], 'fields': []}]}]}}} None
+2025-04-11 11:23:41,436 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_finish():2112] finishing run shreyadhondi-indian-institute-of-technology-madras/da24m019_shreya_da6401_assignment1/179uzqic
+2025-04-11 11:23:41,437 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-04-11 11:23:41,438 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_restore():2322] restore
+2025-04-11 11:23:41,438 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_restore():2328] restore done
+2025-04-11 11:23:45,226 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-11 11:23:45,228 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-11 11:23:45,229 INFO    Thread-24 (_run_job):17776 [wandb_run.py:_footer_sync_info():3917] logging synced files

@@ -1,0 +1,16 @@
+{"time":"2025-04-11T11:23:51.2656235+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\wandb\\run-20250411_112351-83dot61e\\logs\\debug-core.log"}
+{"time":"2025-04-11T11:23:52.3239508+05:30","level":"INFO","msg":"created new stream","id":"83dot61e"}
+{"time":"2025-04-11T11:23:52.3242808+05:30","level":"INFO","msg":"stream: started","id":"83dot61e"}
+{"time":"2025-04-11T11:23:52.3242808+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"83dot61e"}
+{"time":"2025-04-11T11:23:52.324951+05:30","level":"INFO","msg":"handler: started","stream_id":"83dot61e"}
+{"time":"2025-04-11T11:23:52.324951+05:30","level":"INFO","msg":"sender: started","stream_id":"83dot61e"}
+{"time":"2025-04-11T11:23:52.8942972+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T11:35:25.7766063+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-11T11:35:25.7772826+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-11T11:35:26.7828317+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-83dot61e-Confusion_matrix_fashion_mnist_table","runtime_seconds":1.1009537},{"desc":"uploading config.yaml","runtime_seconds":0.3286361,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-04-11T11:35:29.0923435+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-11T11:35:29.6094343+05:30","level":"INFO","msg":"stream: closing","id":"83dot61e"}
+{"time":"2025-04-11T11:35:29.6094343+05:30","level":"INFO","msg":"handler: closed","stream_id":"83dot61e"}
+{"time":"2025-04-11T11:35:29.6094343+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"83dot61e"}
+{"time":"2025-04-11T11:35:29.6099486+05:30","level":"INFO","msg":"sender: closed","stream_id":"83dot61e"}
+{"time":"2025-04-11T11:35:29.6099486+05:30","level":"INFO","msg":"stream: closed","id":"83dot61e"}

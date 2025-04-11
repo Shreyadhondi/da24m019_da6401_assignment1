@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\sweep_train.py", line 49, in <module>
+    sweep_train()
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\sweep_train.py", line 13, in sweep_train
+    wandb.run._set_run_name(run_name)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Run' object has no attribute '_set_run_name'. Did you mean: '_set_run_obj'?

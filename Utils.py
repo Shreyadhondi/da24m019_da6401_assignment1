@@ -1,11 +1,6 @@
 from tensorflow.keras.datasets import mnist, fashion_mnist
-import random
-import copy
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-import pickle as pkl
 import wandb
 
 def plot_images(features, labels):

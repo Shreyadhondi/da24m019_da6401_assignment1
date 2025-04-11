@@ -1,7 +1,7 @@
 # tests/test_utils.py
 
 import numpy as np
-from Utils import create_HL_list, Xavier_weight_init, ReLu, sigmoid, activation_func, output_func, loss_func_CEL, loss_func, L2_Loss, unisonShuffleDataset
+from Utils import create_HL_list, Xavier_weight_init, ReLu, sigmoid, activation_func, output_func, loss_func_CEL, unisonShuffleDataset
 
 def test_create_HL_list():
     assert create_HL_list(3, 64) == [64, 64, 64]

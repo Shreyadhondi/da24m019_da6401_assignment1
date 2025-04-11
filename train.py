@@ -2,22 +2,27 @@ from Model1 import FFNN
 from Utils import data_download,preprocess,plot_images
 import argparse
 import wandb
-import yaml
 
 def main(args):
   """
   runs all the functions
   """
-  user = args.wandb_entity
-  project = args.wandb_project
-  display_name = ""
-  wandb.init(entity=user, project=project, name=display_name)
+  # Construct the run name first
+  run_name = (
+      f"hl_{args.num_layers}_bs_{args.batch_size}_ac_{args.activation}"
+      f"_opt_{args.optimizer}_lr_{args.learning_rate}"
+  )
 
-  # config = wandb.config
-
-  wandb.run.name = "lr_" + str(args.learning_rate) + "_opt_" + str(args.optimizer) + "_epoch_" + str(args.epochs) + "_bs_" + str(args.batch_size) + "_act_" + str(args.activation)
-
-
+  # Now initialize wandb with the name
+  wandb.init(
+      entity=args.wandb_entity,
+      project=args.wandb_project,
+      name=run_name
+  )
+  
+  #we will now log the run name 
+  wandb.log({"run_name": wandb.run.name})
+ 
   X_train, Y_train, X_test, Y_test = data_download(args.dataset)
   plot_images(X_train,Y_train)
   x_val,y_ohv_val,x_train,y_ohv_train,X_test,Y_ohv_test = preprocess(X_train, Y_train, X_test, Y_test)
@@ -31,7 +36,7 @@ if __name__=="__main__":
   parser.add_argument("--wandb_project",default="da24m019_shreya_da6401_assignment1", help="Project name used to track experiments in Weights & Biases dashboard",type=str)
   parser.add_argument("--wandb_entity",default="shreyadhondi-indian-institute-of-technology-madras", help="Wandb Entity used to track experiments in the Weights & Biases dashboard",type=str)
   parser.add_argument("--dataset",default="fashion_mnist",choices = ["mnist", "fashion_mnist"], help="dataset to use for experiment",type=str)
-  parser.add_argument("--epochs",default=50,help="Number of epochs to train neural network",type=int)
+  parser.add_argument("--epochs",default=1,help="Number of epochs to train neural network",type=int)
   parser.add_argument("--batch_size",default=64,help="Batch size used to train neural network",type=int)
   parser.add_argument("--loss",default="cross_entropy",choices=["mean_squared_error", "cross_entropy"], help="Loss Function to train neural network",type=str)
   parser.add_argument("--optimizer",default="nag",choices=["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"], help="optimizer to train neural network",type=str)

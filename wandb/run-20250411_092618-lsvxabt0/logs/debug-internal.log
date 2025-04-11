@@ -1,0 +1,80 @@
+2025-04-11 09:26:18,337 INFO    StreamThr :24272 [internal.py:wandb_internal():83] W&B internal server running at pid: 24272, started at: 2025-04-11 09:26:18.335052
+2025-04-11 09:26:18,342 INFO    WriterThread:24272 [datastore.py:open_for_write():87] open: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\run-lsvxabt0.wandb
+2025-04-11 09:26:19,093 INFO    SenderThread:24272 [dir_watcher.py:__init__():211] watching files in: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files
+2025-04-11 09:26:19,093 INFO    SenderThread:24272 [sender.py:_start_run_threads():1134] run started: lsvxabt0 with start time 1744343778.333037
+2025-04-11 09:26:19,984 INFO    HandlerThread:24272 [system_monitor.py:start():187] Starting system monitor
+2025-04-11 09:26:19,987 INFO    SystemMonitor:24272 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-04-11 09:26:19,987 INFO    HandlerThread:24272 [system_monitor.py:probe():207] Collecting system info
+2025-04-11 09:26:20,001 INFO    SystemMonitor:24272 [interfaces.py:start():186] Started cpu monitoring
+2025-04-11 09:26:20,003 INFO    SystemMonitor:24272 [interfaces.py:start():186] Started disk monitoring
+2025-04-11 09:26:20,016 INFO    SystemMonitor:24272 [interfaces.py:start():186] Started gpu monitoring
+2025-04-11 09:26:20,019 ERROR   gpu       :24272 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 09:26:20,019 ERROR   gpu       :24272 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 09:26:20,042 INFO    SystemMonitor:24272 [interfaces.py:start():186] Started memory monitoring
+2025-04-11 09:26:20,061 INFO    SystemMonitor:24272 [interfaces.py:start():186] Started network monitoring
+2025-04-11 09:26:20,337 INFO    HandlerThread:24272 [system_monitor.py:probe():217] Finished collecting system info
+2025-04-11 09:26:20,337 INFO    HandlerThread:24272 [system_monitor.py:probe():220] Publishing system info
+2025-04-11 09:26:20,339 INFO    HandlerThread:24272 [system_monitor.py:probe():222] Finished publishing system info
+2025-04-11 09:26:20,382 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2025-04-11 09:26:21,113 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\config.yaml
+2025-04-11 09:26:21,114 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\requirements.txt
+2025-04-11 09:26:21,114 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\wandb-metadata.json
+2025-04-11 09:26:21,297 INFO    SenderThread:24272 [sender.py:send_run():981] updated run: lsvxabt0
+2025-04-11 09:26:21,453 INFO    wandb-upload_0:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\2025vdy8-wandb-metadata.json
+2025-04-11 09:26:21,751 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file media\images\examples_0_b34fa6fb8f4e1d927bc5.png with policy now
+2025-04-11 09:26:21,755 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file media\images\examples_0_9127739877399075b92a.png with policy now
+2025-04-11 09:26:21,756 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file media\images\examples_0_5ee947405a73ce3c6071.png with policy now
+2025-04-11 09:26:21,758 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file media\images\examples_0_29d2e9a12afe8129eded.png with policy now
+2025-04-11 09:26:21,762 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file media\images\examples_0_2609871d4d9e100b2b62.png with policy now
+2025-04-11 09:26:21,765 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file media\images\examples_0_aec7a5344b03e3a24f26.png with policy now
+2025-04-11 09:26:21,767 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file media\images\examples_0_265805213118ecbfc1e1.png with policy now
+2025-04-11 09:26:21,774 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file media\images\examples_0_0bdd31139310de199218.png with policy now
+2025-04-11 09:26:21,777 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file media\images\examples_0_e2a3f888c5c69356be72.png with policy now
+2025-04-11 09:26:21,780 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file media\images\examples_0_d8ea8143a7582f4f0060.png with policy now
+2025-04-11 09:26:21,796 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 09:26:22,127 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images\examples_0_aec7a5344b03e3a24f26.png
+2025-04-11 09:26:22,129 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images\examples_0_d8ea8143a7582f4f0060.png
+2025-04-11 09:26:22,131 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images\examples_0_5ee947405a73ce3c6071.png
+2025-04-11 09:26:22,134 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images\examples_0_265805213118ecbfc1e1.png
+2025-04-11 09:26:22,138 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images\examples_0_0bdd31139310de199218.png
+2025-04-11 09:26:22,145 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images\examples_0_2609871d4d9e100b2b62.png
+2025-04-11 09:26:22,149 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images\examples_0_b34fa6fb8f4e1d927bc5.png
+2025-04-11 09:26:22,153 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images\examples_0_9127739877399075b92a.png
+2025-04-11 09:26:22,156 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\output.log
+2025-04-11 09:26:22,157 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\wandb-summary.json
+2025-04-11 09:26:22,158 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images\examples_0_29d2e9a12afe8129eded.png
+2025-04-11 09:26:22,159 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images\examples_0_e2a3f888c5c69356be72.png
+2025-04-11 09:26:22,160 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media
+2025-04-11 09:26:22,161 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\media\images
+2025-04-11 09:26:22,407 INFO    wandb-upload_1:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\8psdgywn-media/images/examples_0_9127739877399075b92a.png
+2025-04-11 09:26:22,528 INFO    wandb-upload_0:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\vw00unyk-media/images/examples_0_b34fa6fb8f4e1d927bc5.png
+2025-04-11 09:26:22,599 INFO    wandb-upload_4:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\auyacoz2-media/images/examples_0_2609871d4d9e100b2b62.png
+2025-04-11 09:26:22,612 INFO    wandb-upload_3:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\13pjk9ks-media/images/examples_0_29d2e9a12afe8129eded.png
+2025-04-11 09:26:22,614 INFO    wandb-upload_2:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\5x7fjvx6-media/images/examples_0_5ee947405a73ce3c6071.png
+2025-04-11 09:26:22,627 INFO    wandb-upload_7:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\bglmsy4n-media/images/examples_0_0bdd31139310de199218.png
+2025-04-11 09:26:22,638 INFO    wandb-upload_5:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\bchqimnj-media/images/examples_0_aec7a5344b03e3a24f26.png
+2025-04-11 09:26:22,642 INFO    wandb-upload_8:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\k9127l28-media/images/examples_0_e2a3f888c5c69356be72.png
+2025-04-11 09:26:22,655 INFO    wandb-upload_6:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\ww6m43ab-media/images/examples_0_265805213118ecbfc1e1.png
+2025-04-11 09:26:22,667 INFO    wandb-upload_9:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\iv5188xt-media/images/examples_0_d8ea8143a7582f4f0060.png
+2025-04-11 09:26:23,326 INFO    wandb-upload_1:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\50wliskw-media/images/examples_0_2609871d4d9e100b2b62.png
+2025-04-11 09:26:23,337 INFO    wandb-upload_4:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\i3lm6ayd-media/images/examples_0_b34fa6fb8f4e1d927bc5.png
+2025-04-11 09:26:23,360 INFO    wandb-upload_2:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\vitp8xzc-media/images/examples_0_9127739877399075b92a.png
+2025-04-11 09:26:23,371 INFO    wandb-upload_3:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\a0ltxp22-media/images/examples_0_e2a3f888c5c69356be72.png
+2025-04-11 09:26:23,647 INFO    wandb-upload_0:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\o10ahh35-media/images/examples_0_29d2e9a12afe8129eded.png
+2025-04-11 09:26:24,029 INFO    wandb-upload_7:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\yb0q42ua-media/images/examples_0_aec7a5344b03e3a24f26.png
+2025-04-11 09:26:24,043 INFO    wandb-upload_5:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\7vfv0qo9-media/images/examples_0_d8ea8143a7582f4f0060.png
+2025-04-11 09:26:24,056 INFO    wandb-upload_8:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\upgvxa5x-media/images/examples_0_5ee947405a73ce3c6071.png
+2025-04-11 09:26:24,160 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\output.log
+2025-04-11 09:26:24,314 INFO    wandb-upload_6:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\id9qml92-media/images/examples_0_265805213118ecbfc1e1.png
+2025-04-11 09:26:24,348 INFO    wandb-upload_9:24272 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpvc7huw6jwandb\iz41tomy-media/images/examples_0_0bdd31139310de199218.png
+2025-04-11 09:26:35,788 ERROR   gpu       :24272 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 09:26:35,789 ERROR   gpu       :24272 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 09:26:35,789 ERROR   gpu       :24272 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 09:26:44,958 INFO    SenderThread:24272 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-11 09:26:45,409 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\wandb-summary.json
+2025-04-11 09:26:46,416 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\output.log
+2025-04-11 09:26:51,467 INFO    Thread-16 :24272 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_092618-lsvxabt0\files\config.yaml
+2025-04-11 09:26:51,521 ERROR   gpu       :24272 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-04-11 09:26:51,524 ERROR   gpu       :24272 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 09:26:51,524 ERROR   gpu       :24272 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-04-11 09:26:55,359 INFO    MainThread:24272 [internal.py:handle_exit():73] Internal process exited

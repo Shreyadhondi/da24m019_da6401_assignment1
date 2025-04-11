@@ -1,0 +1,20 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 64
+epochs:
+  value: 40
+eta:
+  value: 0.0008826516770126716
+hidden_size:
+  value: 64
+num_layers:
+  value: 2
+optimizer:
+  value: momentum
+weight_decay:
+  value: 0.0001
+weight_init:
+  value: Xavier

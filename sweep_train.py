@@ -1,12 +1,20 @@
 import argparse
 import wandb
+import yaml
 from Model1 import *
+from Utils import data_download, preprocess, plot_images
+
 
 def sweep_train():
-    wandb.init()
-    config = wandb.config
+    run = wandb.init()
+    config = run.config
 
-    wandb.run.name = f"lr_{config.eta}_opt_{config.optimizer}_epoch_{config.epochs}_bs_{config.batch_size}_act_{config.activation}"
+    run_name = (
+        f"hl_{config.num_layers}_bs_{config.batch_size}_ac_{config.activation}"
+        f"_opt_{config.optimizer}_lr_{config.eta}"
+    )
+    wandb.run.name = run_name
+    wandb.log({"run_name": run_name})
 
     X_train, Y_train, X_test, Y_test = data_download('fashion_mnist')
     plot_images(X_train, Y_train)
@@ -39,7 +47,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--entity", type=str, default="shreyadhondi-indian-institute-of-technology-madras")
     parser.add_argument("--project", type=str, default="da24m019_shreya_da6401_assignment1")
+    parser.add_argument("--count", type=int, default=10, help="Number of sweep runs")
     args = parser.parse_args()
 
-    wandb.login()
-    sweep_train()
+    with open("sweep_config.yaml") as f:
+        sweep_config = yaml.safe_load(f)
+
+    sweep_id = wandb.sweep(sweep_config, entity=args.entity, project=args.project)
+    wandb.agent(sweep_id, function=sweep_train, count=args.count)
