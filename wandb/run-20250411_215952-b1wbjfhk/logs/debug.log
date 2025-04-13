@@ -1,0 +1,19 @@
+2025-04-11 21:59:52,109 INFO    MainThread:11000 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_215952-b1wbjfhk\logs\debug.log
+2025-04-11 21:59:52,110 INFO    MainThread:11000 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_215952-b1wbjfhk\logs\debug-internal.log
+2025-04-11 21:59:52,110 INFO    MainThread:11000 [wandb_init.py:init():761] calling init triggers
+2025-04-11 21:59:52,111 INFO    MainThread:11000 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'epochs': 5, 'batch_size': 64, 'loss': 'mean_squared_error', 'optimizer': 'adam', 'learning_rate': 0.001, 'num_layers': 2, 'hidden_size': 64, 'activation': 'ReLu', 'weight_init': 'Xavier', 'weight_decay': 0, '_wandb': {}}
+2025-04-11 21:59:52,111 INFO    MainThread:11000 [wandb_init.py:init():784] starting backend
+2025-04-11 21:59:52,111 INFO    MainThread:11000 [wandb_init.py:init():788] sending inform_init request
+2025-04-11 21:59:52,115 INFO    MainThread:11000 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-11 21:59:52,115 INFO    MainThread:11000 [wandb_init.py:init():798] backend started and connected
+2025-04-11 21:59:52,118 INFO    MainThread:11000 [wandb_init.py:init():891] updated telemetry
+2025-04-11 21:59:52,224 INFO    MainThread:11000 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-11 21:59:53,085 INFO    MainThread:11000 [wandb_init.py:init():990] starting run threads in backend
+2025-04-11 21:59:53,335 INFO    MainThread:11000 [wandb_run.py:_console_start():2375] atexit reg
+2025-04-11 21:59:53,335 INFO    MainThread:11000 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-04-11 21:59:53,335 INFO    MainThread:11000 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-04-11 21:59:53,336 INFO    MainThread:11000 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-04-11 21:59:53,337 INFO    MainThread:11000 [wandb_init.py:init():1032] run started, returning control to user process
+2025-04-11 22:01:18,227 INFO    MainThread:11000 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'Confusion_matrix_fashion_mnist') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'Confusion_matrix_fashion_mnist_table'}], 'fields': []}]}]}}} None
+2025-04-11 22:01:19,431 INFO    MsgRouterThr:11000 [mailbox.py:close():129] Closing mailbox, abandoning 3 handles.

@@ -1,0 +1,16 @@
+{"time":"2025-04-11T22:15:08.8523288+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\shrey\\OneDrive\\Desktop\\Mtech\\SEMESTER-2\\DL\\DL Assignment-1\\wandb\\run-20250411_221508-xkm9wg0r\\logs\\debug-core.log"}
+{"time":"2025-04-11T22:15:09.9740898+05:30","level":"INFO","msg":"created new stream","id":"xkm9wg0r"}
+{"time":"2025-04-11T22:15:09.9740898+05:30","level":"INFO","msg":"stream: started","id":"xkm9wg0r"}
+{"time":"2025-04-11T22:15:09.9740898+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xkm9wg0r"}
+{"time":"2025-04-11T22:15:09.9746948+05:30","level":"INFO","msg":"sender: started","stream_id":"xkm9wg0r"}
+{"time":"2025-04-11T22:15:09.9746948+05:30","level":"INFO","msg":"handler: started","stream_id":"xkm9wg0r"}
+{"time":"2025-04-11T22:15:10.430484+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T22:15:10.6056553+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-11T22:15:10.6061652+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-11T22:15:11.619012+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.6967863,"progress":"1.3KB/1.3KB"},{"desc":"uploading data","runtime_seconds":0.3351239},{"desc":"updating run config","runtime_seconds":0.0425303}],"total_operations":3}}
+{"time":"2025-04-11T22:15:13.2741554+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-11T22:15:13.67211+05:30","level":"INFO","msg":"stream: closing","id":"xkm9wg0r"}
+{"time":"2025-04-11T22:15:13.67211+05:30","level":"INFO","msg":"handler: closed","stream_id":"xkm9wg0r"}
+{"time":"2025-04-11T22:15:13.67211+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xkm9wg0r"}
+{"time":"2025-04-11T22:15:13.6731118+05:30","level":"INFO","msg":"sender: closed","stream_id":"xkm9wg0r"}
+{"time":"2025-04-11T22:15:13.6731118+05:30","level":"INFO","msg":"stream: closed","id":"xkm9wg0r"}

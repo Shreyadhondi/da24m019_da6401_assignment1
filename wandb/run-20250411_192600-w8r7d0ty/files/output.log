@@ -1,0 +1,30 @@
+(64, 1)
+EPOCH: 1
+C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\Utils.py:320: RuntimeWarning: overflow encountered in matmul
+  a_i = np.matmul(Weights, Input) + Biases
+C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\Utils.py:432: RuntimeWarning: overflow encountered in square
+  cost += float(np.sum(np.square(W_dict[i])))
+C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\Utils.py:392: RuntimeWarning: invalid value encountered in subtract
+  e_x = np.exp(A_final - np.max(A_final))
+TRAINING LOSS :nan
+TRAINING ACCURACY :0.10131481481481482
+VALIDATION LOSS :nan
+VALIDATION ACCURACY :0.09333333333333334
+EPOCH: 2
+TRAINING LOSS :nan
+TRAINING ACCURACY :0.10074074074074074
+VALIDATION LOSS :nan
+VALIDATION ACCURACY :0.09333333333333334
+EPOCH: 3
+Traceback (most recent call last):
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\train.py", line 56, in <module>
+    main(args)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\train.py", line 30, in main
+    model.fit(x_val,y_ohv_val,x_train,y_ohv_train,X_test,Y_ohv_test)
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\Model1.py", line 250, in fit
+    Pre_act_dict, act_dict,Y_hat = self.forward_pass(x, W_dict, B_dict)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\Model1.py", line 83, in forward_pass
+    Pre_act_dict[f'A_layer_{i}'] = pre_activation_func(W_dict[f'W_layer_{i}'],B_dict[f'B_layer_{i}'],act_dict[f'H_layer_{i-1}'])
+                                                                                               ^^^
+KeyboardInterrupt

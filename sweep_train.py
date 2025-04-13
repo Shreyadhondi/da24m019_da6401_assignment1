@@ -4,11 +4,10 @@ import yaml
 from Model1 import *
 from Utils import data_download, preprocess, plot_images
 
-
 def sweep_train():
     run = wandb.init()
     config = run.config
-
+    dataset = "fashion_mnist"
     run_name = (
         f"hl_{config.num_layers}_bs_{config.batch_size}_ac_{config.activation}"
         f"_opt_{config.optimizer}_lr_{config.eta}"

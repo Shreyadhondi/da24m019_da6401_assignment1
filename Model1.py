@@ -83,7 +83,12 @@ class FFNN():
       Pre_act_dict[f'A_layer_{i}'] = pre_activation_func(W_dict[f'W_layer_{i}'],B_dict[f'B_layer_{i}'],act_dict[f'H_layer_{i-1}'])
       act_dict[f'H_layer_{i}'] = activation_func(Pre_act_dict[f'A_layer_{i}'],self.activation)
     Pre_act_dict[f'A_layer_{i+1}'] = pre_activation_func(W_dict[f'W_layer_{i+1}'],B_dict[f'B_layer_{i+1}'],act_dict[f'H_layer_{i}'])
-    Y_hat = output_func(Pre_act_dict[f'A_layer_{i+1}'])
+    #Y_hat = output_func(Pre_act_dict[f'A_layer_{i+1}'])
+    if self.loss == 'cross_entropy':
+      Y_hat = output_func(Pre_act_dict[f'A_layer_{i+1}'])  # softmax
+    elif self.loss == 'mean_squared_error':
+      Y_hat = np.clip(Pre_act_dict[f'A_layer_{i+1}'], -1, 1)
+
     return Pre_act_dict, act_dict, Y_hat
 
 
@@ -110,11 +115,14 @@ class FFNN():
     grad_act_dict = {}
     grad_pre_act_dict = {}
 
+    #a = Y_ohv - Y_hat
+    #grad_pre_act_dict[f'A_layer_{self.num_layers+1}'] = -a
+
     a = (Y_ohv-Y_hat)
     if self.loss == 'cross_entropy':
       grad_pre_act_dict[f'A_layer_{self.num_layers+1}'] = -a
     elif self.loss == 'mean_squared_error':
-      grad_pre_act_dict[f'A_layer_{self.num_layers+1}'] = float(np.dot(a.T,a))*Y_hat
+      grad_pre_act_dict[f'A_layer_{self.num_layers+1}'] = a
 
     # if self.loss == 'cross_entropy':
     #   grad_pre_act_dict[f'A_layer_{self.num_layers+1}'] = -(Y_ohv-Y_hat)

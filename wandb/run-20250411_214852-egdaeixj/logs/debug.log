@@ -1,0 +1,31 @@
+2025-04-11 21:48:52,961 INFO    MainThread:19748 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-04-11 21:48:52,961 INFO    MainThread:19748 [wandb_setup.py:_flush():67] Configure stats pid to 19748
+2025-04-11 21:48:52,961 INFO    MainThread:19748 [wandb_setup.py:_flush():67] Loading settings from C:\Users\shrey\.config\wandb\settings
+2025-04-11 21:48:52,962 INFO    MainThread:19748 [wandb_setup.py:_flush():67] Loading settings from C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\settings
+2025-04-11 21:48:52,962 INFO    MainThread:19748 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-11 21:48:52,962 INFO    MainThread:19748 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_214852-egdaeixj\logs\debug.log
+2025-04-11 21:48:52,963 INFO    MainThread:19748 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_214852-egdaeixj\logs\debug-internal.log
+2025-04-11 21:48:52,963 INFO    MainThread:19748 [wandb_init.py:init():761] calling init triggers
+2025-04-11 21:48:52,963 INFO    MainThread:19748 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'epochs': 5, 'batch_size': 64, 'loss': 'cross_entropy', 'optimizer': 'adam', 'learning_rate': 0.001, 'num_layers': 2, 'hidden_size': 64, 'activation': 'ReLu', 'weight_init': 'Xavier', 'weight_decay': 0, '_wandb': {}}
+2025-04-11 21:48:52,963 INFO    MainThread:19748 [wandb_init.py:init():784] starting backend
+2025-04-11 21:48:52,964 INFO    MainThread:19748 [wandb_init.py:init():788] sending inform_init request
+2025-04-11 21:48:53,041 INFO    MainThread:19748 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-11 21:48:53,041 INFO    MainThread:19748 [wandb_init.py:init():798] backend started and connected
+2025-04-11 21:48:53,044 INFO    MainThread:19748 [wandb_init.py:init():891] updated telemetry
+2025-04-11 21:48:53,180 INFO    MainThread:19748 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-11 21:48:54,723 INFO    MainThread:19748 [wandb_init.py:init():990] starting run threads in backend
+2025-04-11 21:48:54,958 INFO    MainThread:19748 [wandb_run.py:_console_start():2375] atexit reg
+2025-04-11 21:48:54,958 INFO    MainThread:19748 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-04-11 21:48:54,959 INFO    MainThread:19748 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-04-11 21:48:54,959 INFO    MainThread:19748 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-04-11 21:48:54,966 INFO    MainThread:19748 [wandb_init.py:init():1032] run started, returning control to user process
+2025-04-11 21:50:30,748 INFO    MainThread:19748 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'Confusion_matrix_fashion_mnist') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'Confusion_matrix_fashion_mnist_table'}], 'fields': []}]}]}}} None
+2025-04-11 21:50:32,055 INFO    MainThread:19748 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_215032-abuus9vw\logs\debug.log
+2025-04-11 21:50:32,056 INFO    MainThread:19748 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\shrey\OneDrive\Desktop\Mtech\SEMESTER-2\DL\DL Assignment-1\wandb\run-20250411_215032-abuus9vw\logs\debug-internal.log
+2025-04-11 21:50:32,057 INFO    MainThread:19748 [wandb_init.py:init():761] calling init triggers
+2025-04-11 21:50:32,057 INFO    MainThread:19748 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'epochs': 5, 'batch_size': 64, 'loss': 'mean_squared_error', 'optimizer': 'adam', 'learning_rate': 0.001, 'num_layers': 2, 'hidden_size': 64, 'activation': 'ReLu', 'weight_init': 'Xavier', 'weight_decay': 0, '_wandb': {}}
+2025-04-11 21:50:32,057 INFO    MainThread:19748 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-04-11 21:52:02,337 INFO    MainThread:19748 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'Confusion_matrix_fashion_mnist') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'Confusion_matrix_fashion_mnist_table'}], 'fields': []}]}]}}} None
+2025-04-11 21:52:03,495 INFO    MsgRouterThr:19748 [mailbox.py:close():129] Closing mailbox, abandoning 2 handles.
