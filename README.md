@@ -1,10 +1,10 @@
-# 🧠 DL Assignment-1 — Feedforward Neural Network from Scratch
+# DL Assignment-1 — Feedforward Neural Network from Scratch
 
 This repository contains an implementation of a modular **Feedforward Neural Network (FFNN)** built from scratch using only NumPy. The model is trained on both **Fashion MNIST** and **MNIST** datasets and supports experimentation with multiple optimizers, loss functions, weight initialization strategies, and activation functions. Hyperparameter tuning is performed using **Weights & Biases (W&B)** sweeps.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 DL ASSIGNMENT-1/
@@ -30,9 +30,9 @@ DL ASSIGNMENT-1/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 🔹 Step 1: Clone and Set Up Virtual Environment
+### Step 1: Clone and Set Up Virtual Environment
 
 ```bash
 git clone https://github.com/<your-id>/da6401_assignment1
@@ -48,11 +48,11 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Training the Model with Custom Parameters
+## Training the Model with Custom Parameters
 
 Train your model using `train.py` with command-line arguments for full control.
 
-### ✅ Example Command:
+### Example Command:
 
 ```bash
 python train.py \
@@ -65,7 +65,7 @@ python train.py \
   --learning_rate 0.001
 ```
 
-### ⚙️ Supported Hyperparameters
+### Supported Hyperparameters
 
 | Flag             | Values                                                                 |
 |------------------|------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ python train.py \
 
 ---
 
-## 📊 Hyperparameter Tuning via W&B Sweeps
+## Hyperparameter Tuning via W&B Sweeps
 
 To run a sweep using your own W&B credentials:
 
@@ -94,7 +94,7 @@ Edit `sweep_config.yaml` to modify parameter ranges or strategy (e.g., `grid`, `
 
 ---
 
-## 📈 Compare Loss Functions: MSE vs Cross Entropy
+## Compare Loss Functions: MSE vs Cross Entropy
 
 Run this script to generate performance plots comparing **mean squared error** and **cross entropy**:
 
@@ -106,7 +106,7 @@ Plots will be logged to W&B automatically and also printed to console.
 
 ---
 
-## ✅ Running Unit Tests
+## Running Unit Tests
 
 Run unit tests for all utility and optimizer functions:
 
@@ -116,7 +116,7 @@ pytest tests/
 
 ---
 
-## 🧪 Best Run Example
+## Best Run Example
 
 ```text
 Run Name: hl_4_bs_32_ac_ReLu_opt_nadam_lr_0.00071
@@ -130,38 +130,5 @@ Batch Size: 32
 Weight Initialization: Xavier
 Activation Function: ReLU
 ```
-
 ---
 
-## ✅ Notes for Evaluator
-
-- 🔒 **No Test Leakage**: Test set has not been used in training or validation.
-- ✅ **Proper Splitting**: 10% of the training set is used as validation.
-- 🧹 **Clean Code**: All helper logic is modularized. Code passes `pytest` tests.
-- 🔁 **Reproducible**: Set seeds for shuffling and W&B logs track hyperparameters.
-- 📊 **Plots**: All plots (validation loss, accuracy, comparison) are added to the report and W&B.
-- ✍️ **Original**: Code is completely original. No copied code or plagiarism.
-
----
-
-## 📎 GitHub Submission Link
-
-```
-https://github.com/<your-id>/da6401_assignment1
-```
-
-Please replace `<your-id>` with your GitHub username.
-
----
-
-## 📦 To Regenerate `requirements.txt`
-
-If you modify or add packages, regenerate the requirements file with:
-
-```bash
-pip freeze > requirements.txt
-```
-
----
-
-Made with ❤️ for **DA6401: Deep Learning Assignment-1**
