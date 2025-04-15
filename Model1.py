@@ -224,12 +224,12 @@ class FFNN():
 
     Strategy:
     ---------
-    1. if the validation loss dosen't reduce for a long time then it should stop running.
-    2. if the sweep runs for 10 eopcs, after 5 epocs, the logic will check if the validation accuracy < 50%
+    1. if the validation loss doesn't reduce for a long time then it should stop running.
+    2. if the sweep runs for 10 epochs, after 5 epochs, the logic will check if the validation accuracy < 50%
     if it is less then the training is stopped.
-    similarlly, if the sweep runs for 20/30 eopcs, after 10 epocs, the logic will check if the validation accuracy < 50%
+    similarlly, if the sweep runs for 20/30 eopchs, after 10 epochs, the logic will check if the validation accuracy < 50%
     if it is less then the training is stopped.
-    similarlly, if the sweep runs for more then 30 eopcs, after 25 epocs, the logic will check if the validation accuracy < 50%
+    similarlly, if the sweep runs for more then 30 epochs, after 25 epochs, the logic will check if the validation accuracy < 50%
     if it is less then the training is stopped.
 
     """

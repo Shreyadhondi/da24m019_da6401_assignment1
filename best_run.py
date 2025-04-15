@@ -3,17 +3,17 @@ import wandb
 if __name__ == "__main__":
     api = wandb.Api()
 
-    # Your W&B entity and project
+    # here I am giving my wandb credientials to login to my account.
     entity = "shreyadhondi-indian-institute-of-technology-madras"
     project = "da24m019_shreya_da6401_assignment1"
 
-    # Get all runs in the project
+    # we use the command below to get all the runs in the project
     runs = api.runs(f"{entity}/{project}")
 
-    # Filter out only finished runs that have validation accuracy
+    # we will now filter out only the finished runs that have validation accuracy.
     valid_runs = [run for run in runs if run.state == "finished" and "validation_accuracy" in run.summary]
 
-    # Find the best run by validation accuracy
+    # Now we will find the best run by validation accuracy
     best_run = max(valid_runs, key=lambda run: run.summary["validation_accuracy"])
 
     print(f"\nBest Run across all experiments:")
