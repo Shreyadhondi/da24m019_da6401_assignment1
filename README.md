@@ -1,4 +1,4 @@
-# DL Assignment-1 — Feedforward Neural Network from Scratch
+# DL Assignment-1
 
 This repository contains an implementation of a modular **Feedforward Neural Network (FFNN)** built from scratch using only NumPy. The model is trained on both **Fashion MNIST** and **MNIST** datasets and supports experimentation with multiple optimizers, loss functions, weight initialization strategies, and activation functions. Hyperparameter tuning is performed using **Weights & Biases (W&B)** sweeps.
 
@@ -35,7 +35,7 @@ DL ASSIGNMENT-1/
 ### Step 1: Clone and Set Up Virtual Environment
 
 ```bash
-git clone https://github.com/<your-id>/da6401_assignment1
+git clone https://github.com/Shreyadhondi/da24m019_da6401_assignment1
 cd da6401_assignment1
 
 # Create and activate virtual environment
