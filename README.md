@@ -131,6 +131,6 @@ Weight Initialization: Xavier
 Activation Function: ReLU
 ```
 ---
-#Link to the wandb report:
+# Link to the wandb report:
 https://api.wandb.ai/links/shreyadhondi-indian-institute-of-technology-madras/8xmijjro
 
