@@ -133,4 +133,5 @@ Activation Function: ReLU
 ---
 # Link to the wandb report:
 https://api.wandb.ai/links/shreyadhondi-indian-institute-of-technology-madras/8xmijjro
-
+# Link to the Github Repo:
+https://github.com/Shreyadhondi/da24m019_da6401_assignment1
